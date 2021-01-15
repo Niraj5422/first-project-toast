@@ -5,7 +5,7 @@ from FlaskTemplate import app
 @app.route('/home')
 def home():
     """Renders the home page."""
-    # TODO: Create a query parameter so as to add our name to the URL like 
+    # Query parameter to add our name to the URL like 
     # https://first-project.azurewebsites.net/name=Grace
     name = request.args.get('name')
 
